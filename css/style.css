@@ -1,0 +1,21 @@
+.batton{
+    display: none;
+}
+.dropdown-menu{
+    margin-left: 0;
+}
+.navbar .nav-item{
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+@media(max-width: 767px) {
+    .batton{
+        display: block;
+    }
+   
+}
